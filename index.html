@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Barossa Goldfields Historical Society - Home</title>
+        <meta name="description" content="Barossa Goldfields Historical Society - Home">
+        <meta name="keywords" content="barossa goldfields, history, volunteers, historical society">
+        <meta name="author" content="Chris Willoughby" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        
+        <link rel="sitemap" type="application/xml" title="Sitemap" href="sitemap.xml">
+        
+        <link rel="stylesheet" media="screen" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="vendor/normalize/normalize.css">
+        <link rel="stylesheet" href="vendor/HTML5Boilerplate/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bghs_styles_new.css">
+
+        <script src="vendor/modernizr/modernizr-2.6.2.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="vendor/html5shiv/html5shiv.js"></script>
+        <script src="vendor/Respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div id="common_banner" class="navbar navbar-inverse navbar-static-top"></div>
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>Open Day!</h1>
+                <img class="img-thumbnail" src="img/bghs_2009_od/web_CRW_2627_200.jpg">
+                <img class="img-thumbnail" src="img/bghs_2009_od/web_CRW_2662_200.jpg">
+                <p>
+                    Come along to our Open Day! Guided tours and walks, endless billy tea and damper,
+                    blacksmithing and gold panning demonstrations....
+                </p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="open_day.html">Learn more &raquo;</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <h2>Getting Here</h2>
+                    <p>
+                        We're just 15 minutes out of Gawler on the way to Williamstown....
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="getting_here.html">View details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>Walking Trails</h2>
+                    <p>
+                        We have a number of walking trails, each with interpretive signs and some spectacular views.
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="walking_trails.html">View details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <h2>History</h2>
+                    <p>
+                        Our outside displays are always on view, and the museum is open regularly.
+                    </p>
+                    <p>
+                        <a class="btn btn-default" href="about.html">View details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p class="muted credit">
+                    &copy; Barossa Goldfields Historical Society 2014
+                </p>
+            </footer>
+        </div>
+        <!-- /container -->
+
+        <!-- TODO: Make this dependent on browser -->
+        <script type="text/javascript" src="vendor/jquery/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+
+        <!-- Load the menu -->
+        <script type="text/javascript">
+            $.get("common_banner.html", function(data) {
+                $("#common_banner").html(data);
+            });
+        </script>
+
+    </body>
+</html>

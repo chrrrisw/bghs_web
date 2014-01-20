@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Barossa Goldfields Historical Society - Trails</title>
+        <meta name="description" content="Barossa Goldfields Historical Society - Trails">
+        <meta name="keywords" content="barossa goldfields, history, volunteers, historical society">
+        <meta name="author" content="Chris Willoughby" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+        <link rel="stylesheet" media="screen" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="vendor/normalize/normalize.css">
+        <link rel="stylesheet" href="vendor/HTML5Boilerplate/main.css">
+        <link rel="stylesheet" href="vendor/OpenLayers2/theme/default/style.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bghs_styles_new.css">
+
+        <script src="vendor/modernizr/modernizr-2.6.2.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="vendor/html5shiv/html5shiv.js"></script>
+        <script src="vendor/Respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div id="common_banner" class="navbar navbar-inverse navbar-static-top"></div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Walking Trails</h1>
+
+                    <div id="trailMap"></div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-primary" id="trail1Btn">
+                            <input type="checkbox">
+                            Victoria Hill Walk </label>
+                        <label class="btn btn-primary" id="trail2Btn">
+                            <input type="checkbox">
+                            Phoenix Hike </label>
+                        <label class="btn btn-primary" id="trail3Btn">
+                            <input type="checkbox">
+                            Lady Pearce Hike </label>
+                        <label class="btn btn-primary" id="poiBtn">
+                            <input type="checkbox">
+                            Points of Interest </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p>
+                    Map data <a href="http://www.openstreetmap.org/copyright">&copy;</a>
+                    <a href="http://www.openstreetmap.org">OpenStreetMap</a> contributors. See <a href="http://www.openstreetmap.org/copyright">Licence</a>.
+                </p>
+
+                <p class="muted credit">
+                    &copy; Barossa Goldfields Historical Society 2013
+                </p>
+            </footer>
+        </div>
+        <!-- /container -->
+
+        <!-- TODO: Make this dependent on browser -->
+        <script type="text/javascript" src="vendor/jquery/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+        <script src="vendor/OpenLayers2/OpenLayers.js"></script>
+        <script src="js/trail_map.js"></script>
+
+        <!-- Load the menu -->
+        <script type="text/javascript">
+$.get("common_banner.html", function(data) {
+$("#common_banner").html(data);
+});
+
+trail_map_init();
+        </script>
+
+    </body>
+
+</html>
