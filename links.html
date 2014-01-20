@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <title>Barossa Goldfields Historical Society - Links</title>
+        <meta name="description" content="Barossa Goldfields Historical Society - Links">
+        <meta name="keywords" content="barossa goldfields, history, volunteers, historical society">
+        <meta name="author" content="Chris Willoughby" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+        <link rel="stylesheet" media="screen" type="text/css" href="vendor/bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" href="vendor/normalize/normalize.css">
+        <link rel="stylesheet" href="vendor/HTML5Boilerplate/main.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bghs_styles_new.css">
+
+        <script src="vendor/modernizr/modernizr-2.6.2.min.js"></script>
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+        <script src="vendor/html5shiv/html5shiv.js"></script>
+        <script src="vendor/Respond/respond.min.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div id="common_banner" class="navbar navbar-inverse navbar-static-top"></div>
+
+        <div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <h1>Links</h1>
+                    <p>Here are some links of particular interest to the club, and those interested in the
+            history and environment of the region.</p>
+                    <ul>
+                        <li><a href="http://www.communitywebs.org/friendsofparks">Friends of Parks - old website</a></li>
+                        <li><a href="http://www.parkfriends.com.au">Friends of Parks - new website</a></li>
+                        <li><a href="http://www.environment.sa.gov.au/parks/Find_a_Park/Browse_by_region/Adelaide_Hills/Para_Wirra_Recreation_Park">DEWNR Para Wirra Information</a></li>
+                        <li><a href="http://www.southaustralianhistory.com.au/barossagold.htm">Flinders Ranges Research</a> - Barossa Goldfields page</li>
+                        <li><a href="http://tysaustralia.com/goldrushsouthaustralia.html">Gold Rush South Australia</a></li>
+                        <li><a href="http://trove.nla.gov.au/ndp/del/article/46863823">NLA Trove</a> - one of many articles on Trove. Click on the <i>Barossa Goldfields</i> tag to find more.</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+                <p class="muted credit">
+                    &copy; Barossa Goldfields Historical Society 2013
+                </p>
+            </footer>
+        </div>
+        <!-- /container -->
+
+        <!-- TODO: Make this dependent on browser -->
+        <script type="text/javascript" src="vendor/jquery/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="vendor/bootstrap/js/bootstrap.js"></script>
+
+        <!-- Load the menu -->
+        <script type="text/javascript">
+            $.get("common_banner.html", function(data) {
+                $("#common_banner").html(data);
+            });
+        </script>
+
+    </body>
+</html>
