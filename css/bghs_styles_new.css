@@ -4,14 +4,14 @@ body {
     background-color: #f9e7ab;
 }
 
-.navbar-inverse {
+.navbar-bghs {
     background-color: #7f4f2f;
     border-color: #5f2f0f;
 }
-.navbar-inverse .navbar-brand {
+.navbar-bghs .navbar-brand {
     color: #bfbfbf;
 }
-.navbar-inverse .navbar-nav > li > a {
+.navbar-bghs .navbar-nav > li > a {
     color: #bfbfbf;
 }
 
@@ -51,4 +51,17 @@ p.date {
 
 .jumbotron img {
     float: right;
+}
+
+.table-bghs thead > tr > th,
+.table-bghs tbody > tr > th,
+.table-bghs tfoot > tr > th,
+.table-bghs thead > tr > td,
+.table-bghs tbody > tr > td,
+.table-bghs tfoot > tr > td {
+    border-top: 1px solid #5F2F0F;
+}
+
+.table-bghs thead > tr > th {
+  border-bottom: 2px solid #5F2F0F;
 }
