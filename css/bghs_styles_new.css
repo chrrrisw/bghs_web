@@ -44,12 +44,12 @@ p.date {
   border: 1px solid #000000;
 }
 
-.jumbotron {
+.jumbotron-bghs {
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.jumbotron img {
+.jumbotron-bghs img {
     float: right;
 }
 
