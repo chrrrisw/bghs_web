@@ -1,6 +1,6 @@
 lat	lon	title	iconSize	iconOffset	icon	description
 -34.670014	138.826219	Local Wildlife	21,25	-10,-25	vendor/OpenLayers2/img/marker-green.png	<img src='img/geolocated/07102012276.jpg.thm'></img><br><img src='img/geolocated/07102012276.jpg.thm'></img>
--34.656708	138.825736	Victoria Hill Rush	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/01102012178.jpg.thm'></img><br><img src='img/geolocated/01102012178.jpg.thm'></img>
+-34.656708	138.825736	Victoria Hill Rush	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/01102012178.jpg.thm'></img><br><p>Interpretive sign showing details of the Victoria Hill rush. <a href='img/geolocated/01102012178.jpg'>Full sized image.</a></p>
 -34.657767	138.828097	Trail	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012205.jpg.thm'></img><br><img src='img/geolocated/01102012205.jpg.thm'></img>
 -34.656822	138.827939	Poppet Head	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012217.jpg.thm'></img><br><img src='img/geolocated/01102012217.jpg.thm'></img>
 -34.668106	138.821425	title	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/07102012273.jpg.thm'></img><br><img src='img/geolocated/07102012273.jpg.thm'></img>
@@ -40,7 +40,7 @@ lat	lon	title	iconSize	iconOffset	icon	description
 -34.667219	138.819886	title	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/07102012256.jpg.thm'></img><br><img src='img/geolocated/07102012256.jpg.thm'></img>
 -34.664889	138.821236	Shaft	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/07102012244.jpg.thm'></img><br><img src='img/geolocated/07102012244.jpg.thm'></img>
 -34.658622	138.824569	Shaft	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012197.jpg.thm'></img><br><img src='img/geolocated/01102012197.jpg.thm'></img>
--34.656675	138.825775	Trail	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012179.jpg.thm'></img><br><img src='img/geolocated/01102012179.jpg.thm'></img>
+-34.656675	138.825775	Trail	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012179.jpg.thm'></img><br><p>The trail ahead (or behind).</p>
 -34.658372	138.825642	Depression Battlers	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012193.jpg.thm'></img><br><img src='img/geolocated/01102012193.jpg.thm'></img>
 -34.658214	138.825425	Heritage	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012191.jpg.thm'></img><br><img src='img/geolocated/01102012191.jpg.thm'></img>
 -34.658192	138.825575	Cottage	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012192.jpg.thm'></img><br><img src='img/geolocated/01102012192.jpg.thm'></img>
@@ -72,7 +72,7 @@ lat	lon	title	iconSize	iconOffset	icon	description
 -34.657447	138.828225	Bowden's Cottage	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/01102012207.jpg.thm'></img><br><img src='img/geolocated/01102012207.jpg.thm'></img>
 -34.664814	138.821431	Steam Winding House	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/07102012240.jpg.thm'></img><br><img src='img/geolocated/07102012240.jpg.thm'></img>
 -34.667983	138.821194	title	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/07102012263.jpg.thm'></img><br><img src='img/geolocated/07102012263.jpg.thm'></img>
--34.656900	138.825231	Alluvial Shaft Mining	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/01102012181.jpg.thm'></img><br><img src='img/geolocated/01102012181.jpg.thm'></img>
+-34.656900	138.825231	Alluvial Shaft Mining	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/01102012181.jpg.thm'></img><br><p>Interpretive sign showing details of alluvial shaft mining. <a href='img/geolocated/01102012181.jpg'>Full sized image.</a></p>
 -34.656406	138.826678	Map	21,25	-10,-25	vendor/OpenLayers2/img/marker-gold.png	<img src='img/geolocated/01102012219.jpg.thm'></img><br><img src='img/geolocated/01102012219.jpg.thm'></img>
 -34.667283	138.819867	Battery House	21,25	-10,-25	vendor/OpenLayers2/img/marker.png	<img src='img/geolocated/07102012255.jpg.thm'></img><br><img src='img/geolocated/07102012255.jpg.thm'></img>
 -34.659144	138.827406	Trail Marker	21,25	-10,-25	vendor/OpenLayers2/img/marker-blue.png	<img src='img/geolocated/01102012202.jpg.thm'></img><br><img src='img/geolocated/01102012202.jpg.thm'></img>
