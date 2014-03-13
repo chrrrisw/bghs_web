@@ -20,8 +20,10 @@ function trail_map_init() {
         }
         if (layer) {
             if (layer.getVisibility()) {
+                ga('send', 'event', evt.target.id, 'hidden');
                 layer.setVisibility(false);
             } else {
+                ga('send', 'event', evt.target.id, 'shown');
                 layer.setVisibility(true);
             }
         }
@@ -32,6 +34,7 @@ function trail_map_init() {
     }
 
     function onFeatureSelect(feature) {
+        ga('send', 'event', 'poi', 'shown');
         selectedFeature = feature;
         popup = new OpenLayers.Popup.FramedCloud("poi", feature.geometry.getBounds().getCenterLonLat(), null, "<div style='font-size:.8em'>" + feature.attributes.title + "<br>" + feature.attributes.description + "</div>", null, true, onPopupClose);
         feature.popup = popup;
@@ -46,13 +49,9 @@ function trail_map_init() {
 
     // Create the map
     map = new OpenLayers.Map("trailMap", {
-        controls : [
-            new OpenLayers.Control.Navigation(),
-            new OpenLayers.Control.PanZoomBar(),
-            //new OpenLayers.Control.LayerSwitcher(),
-            new OpenLayers.Control.Attribution(),
-            new OpenLayers.Control.MousePosition()
-            ],
+        controls : [new OpenLayers.Control.Navigation(), new OpenLayers.Control.PanZoomBar(),
+        //new OpenLayers.Control.LayerSwitcher(),
+        new OpenLayers.Control.Attribution(), new OpenLayers.Control.MousePosition()],
         units : 'm',
         projection : new OpenLayers.Projection("EPSG:900913"),
         displayProjection : new OpenLayers.Projection("EPSG:4326")
@@ -148,7 +147,7 @@ function trail_map_init() {
 
     // Set position and zoom level
     map.setCenter(position, zoom);
-    
+
     $("#trail1Btn").on("click", showHide).addClass("active");
     $("#trail2Btn").on("click", showHide);
     $("#trail3Btn").on("click", showHide);
