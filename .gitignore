@@ -1,5 +1,15 @@
 google*.html
 img/geolocated/*jpg
 img/geolocated/*thm
+img/bghs_2009_od/*jpg
+img/bghs_2012_cp/*jpg
+img/bghs_2012_od/*jpg
+img/bghs_2013_vp/*jpg
+img/bghs_25/*jpg
+vendor/OpenLayers2
+vendor/bootstrap
+vendor/jquery
+vendor/HTML5Boilerplate/*.md
+vendor/HTML5Boilerplate/doc
 twistd.pid
 twistd.log
